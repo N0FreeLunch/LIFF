@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-export default function BasicTextField({label}) {
+export default function BasicTextField({label}: { label: string }) {
   return (
     <Box
       component="form"
