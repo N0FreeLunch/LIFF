@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
-import Login from "./components/Login/Login";
+import Login from "src/components/Login/Login";
 
 function App() {
   const [message, setMessage] = useState("");
