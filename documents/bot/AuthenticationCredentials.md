@@ -78,3 +78,10 @@ source ~/.zshrc
 를 사용하도록 하자.
 
 설정을 했다면 `aws configure sso`을 사용해서 기존에 세팅된 정보를 확인하고 추가 입력 없이 접속을 할 수 있다.
+
+## CDK 접근을 위한 권한 설정하기
+
+> is not authorized to perform: cloudformation
+
+위와 같은 에러가 발생한다면, AWS IAM의 사용자에서 대상 사용자의 상세 화면에서 AWSCloudFormationFullAccess 라는 권한을 추가해 줘야 한다.
+
